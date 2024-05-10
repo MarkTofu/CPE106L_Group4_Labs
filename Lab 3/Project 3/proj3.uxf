@@ -1,0 +1,34 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>150</x><y>180</y><w>210</w><h>290</h></coordinates><panel_attributes>Bank
+--
+- accounts : string
+- fileName: NoneType
+- add: string
+- makeKey: string
+--
++ Bank()
++ __int__ () 
++ __str__ ()
++ makeKey (string, string): string
++ add (SavingsAccount): void 
++ remove (string, string): string 
++ get(string, string): string 
++ computerInterst(): int 
++ getKeys (): 
++ save (NoneType): 
++ createBank(int): Bank 
++ testAccount(): 
++ main(int, None):</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>320</y><w>310</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>290;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>640</x><y>220</y><w>210</w><h>210</h></coordinates><panel_attributes>Savings Account
+--
+- name: string
+- pin: string 
+- balance: float 
+- deposit: NoneType
+--
++ SavingsAccount(): 
++ SavingsAccount(string, string, float): 
++ getBalance(): float 
++ getName(): string 
++ getPin(): string 
++ deposit(int): NoneType 
++ withdraw(int): NoneType 
++ computerInterest(): float</panel_attributes><additional_attributes></additional_attributes></element></diagram>
